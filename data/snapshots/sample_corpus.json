@@ -1,0 +1,268 @@
+[
+  {
+    "id": "cpsc-24-2201",
+    "source": "cpsc",
+    "title": "BlendJet 2 portable blenders recalled due to fire and laceration hazards",
+    "description": "This recall involves BlendJet 2 portable blenders sold in a range of colours. The blender's battery can overheat, and the blades can fracture during use. Affected units were sold online and in retail stores nationwide.",
+    "published_on": "2024-03-14",
+    "brands": [
+      "BlendJet"
+    ],
+    "models": [
+      "BlendJet 2"
+    ],
+    "category": "blender",
+    "hazard_text": "Fire and laceration hazard; reports of burns and lacerations to users",
+    "remedy_text": "Free replacement blender base from the manufacturer",
+    "contact": "BlendJet customer support",
+    "url": "https://www.cpsc.gov/Recalls",
+    "units": "4,800,000",
+    "sold_from": "2021-03-01",
+    "sold_to": "2024-02-29"
+  },
+  {
+    "id": "fda-device-z-1188-2021",
+    "source": "fda_device",
+    "title": "Philips Respironics DreamStation CPAP and BiPAP devices, sound abatement foam",
+    "description": "Certain Philips Respironics continuous and bi-level positive airway pressure devices contain polyester-based polyurethane sound abatement foam that may degrade into particles and release volatile organic compounds, which a user may inhale or swallow.",
+    "published_on": "2021-06-14",
+    "brands": [
+      "Philips Respironics",
+      "Philips"
+    ],
+    "models": [
+      "DreamStation"
+    ],
+    "category": "device",
+    "hazard_text": "Possible inhalation of degraded foam particles and chemical emissions",
+    "remedy_text": "Register the device for repair or replacement; consult your physician before stopping prescribed therapy",
+    "contact": "Philips Respironics",
+    "url": "https://www.fda.gov/medical-devices",
+    "sold_from": "2009-01-01",
+    "sold_to": "2021-04-26"
+  },
+  {
+    "id": "cpsc-19-2098",
+    "source": "cpsc",
+    "title": "Graco recalls certain 4Ever DLX convertible car seats over harness webbing",
+    "description": "The harness webbing on certain 4Ever DLX 4-in-1 car seats can loosen after adjustment, which may not restrain a child properly in a crash. Affected seats carry model numbers printed on a white label under the seat pad.",
+    "published_on": "2020-08-06",
+    "brands": [
+      "Graco",
+      "Graco Children's Products"
+    ],
+    "models": [
+      "4Ever DLX",
+      "2093054",
+      "2093055"
+    ],
+    "category": "car seat",
+    "hazard_text": "Risk of injury in a crash if the child is not properly restrained",
+    "remedy_text": "Free replacement harness kit",
+    "contact": "Graco Children's Products",
+    "url": "https://www.cpsc.gov/Recalls",
+    "sold_from": "2019-01-01",
+    "sold_to": "2021-03-31"
+  },
+  {
+    "id": "nhtsa-19v-702",
+    "source": "nhtsa",
+    "title": "Honda Accord: software may cause the rear-view camera image to fail",
+    "description": "The rear-view camera display software may fail to show an image when the vehicle is in reverse, reducing the driver's view behind the vehicle.",
+    "published_on": "2019-09-25",
+    "brands": [
+      "Honda"
+    ],
+    "models": [
+      "Accord"
+    ],
+    "category": "back over prevention: camera",
+    "hazard_text": "Reduced rear visibility increases the risk of a crash",
+    "remedy_text": "Dealers will update the rear-view camera software free of charge",
+    "contact": "Honda customer service",
+    "url": "https://www.nhtsa.gov/recalls",
+    "sold_from": "2018-06-01",
+    "sold_to": "2019-08-31"
+  },
+  {
+    "id": "cpsc-23-1440",
+    "source": "cpsc",
+    "title": "Ryobi recalls cordless drills over switch defect",
+    "description": "The trigger switch on certain Ryobi 18V cordless drills can stick in the on position. Recalled drills carry model number P215Q printed on the housing.",
+    "published_on": "2023-05-11",
+    "brands": [
+      "Ryobi"
+    ],
+    "models": [
+      "P215Q"
+    ],
+    "category": "power tool",
+    "hazard_text": "Risk of injury from unexpected operation",
+    "remedy_text": "Free repair kit",
+    "contact": "Ryobi Tools",
+    "url": "https://www.cpsc.gov/Recalls",
+    "sold_from": "2022-01-01",
+    "sold_to": "2023-04-30"
+  },
+  {
+    "id": "cpsc-24-1902",
+    "source": "cpsc",
+    "title": "Peloton recalls Tread+ treadmills after reports of injuries to children",
+    "description": "Adult users, children and pets can be pulled under the rear of the treadmill.",
+    "published_on": "2024-01-18",
+    "brands": [
+      "Peloton"
+    ],
+    "models": [
+      "Tread+"
+    ],
+    "category": "exercise equipment",
+    "hazard_text": "Risk of injury and death to children and pets",
+    "remedy_text": "Full refund or free rear guard installation",
+    "contact": "Peloton",
+    "url": "https://www.cpsc.gov/Recalls"
+  },
+  {
+    "id": "cpsc-23-0771",
+    "source": "cpsc",
+    "title": "Boppy recalls newborn loungers after infant deaths",
+    "description": "Infants placed on the lounger can roll and suffocate against the padding.",
+    "published_on": "2023-09-23",
+    "brands": [
+      "Boppy",
+      "The Boppy Company"
+    ],
+    "models": [
+      "Newborn Lounger"
+    ],
+    "category": "infant product",
+    "hazard_text": "Suffocation hazard; infant fatalities reported",
+    "remedy_text": "Stop use immediately and contact the firm for a refund",
+    "contact": "The Boppy Company",
+    "url": "https://www.cpsc.gov/Recalls"
+  },
+  {
+    "id": "fda-food-f-0912-2024",
+    "source": "fda_food",
+    "title": "Fresh Express spinach, 10oz bags, potential Listeria monocytogenes",
+    "description": "Bagged spinach distributed to retail, lot codes beginning with 24-",
+    "published_on": "2024-02-09",
+    "brands": [
+      "Fresh Express"
+    ],
+    "models": [
+      "24-"
+    ],
+    "category": "food",
+    "hazard_text": "Possible Listeria monocytogenes contamination",
+    "remedy_text": "Classification I",
+    "contact": "Fresh Express",
+    "url": "https://www.fda.gov/safety"
+  },
+  {
+    "id": "nhtsa-22v-334",
+    "source": "nhtsa",
+    "title": "Ford F-150: engine block heater cable may corrode",
+    "description": "The engine block heater cable can corrode and short circuit.",
+    "published_on": "2022-05-17",
+    "brands": [
+      "Ford"
+    ],
+    "models": [
+      "F-150"
+    ],
+    "category": "electrical system",
+    "hazard_text": "Fire risk while plugged in",
+    "remedy_text": "Dealers will inspect and replace the cable",
+    "contact": "Ford",
+    "url": "https://www.nhtsa.gov/recalls"
+  },
+  {
+    "id": "cpsc-24-0455",
+    "source": "cpsc",
+    "title": "Baby Trend recalls high chairs over fall hazard",
+    "description": "The high chair legs can detach during use.",
+    "published_on": "2024-01-04",
+    "brands": [
+      "Baby Trend"
+    ],
+    "models": [
+      "Sit Right"
+    ],
+    "category": "high chair",
+    "hazard_text": "Fall hazard to children",
+    "remedy_text": "Free repair kit",
+    "contact": "Baby Trend",
+    "url": "https://www.cpsc.gov/Recalls"
+  },
+  {
+    "id": "fda-drug-d-2231-2024",
+    "source": "fda_drug",
+    "title": "Metformin hydrochloride extended-release tablets, NDMA above limit",
+    "description": "Certain lots of metformin ER tablets, 500mg",
+    "published_on": "2024-04-22",
+    "brands": [
+      "Marksans Pharma"
+    ],
+    "models": [
+      "500mg"
+    ],
+    "category": "drug",
+    "hazard_text": "NDMA content above the acceptable daily intake limit",
+    "remedy_text": "Classification II",
+    "contact": "Marksans Pharma",
+    "url": "https://www.fda.gov/safety"
+  },
+  {
+    "id": "cpsc-23-2277",
+    "source": "cpsc",
+    "title": "Onewheel self-balancing electric skateboards recalled after four deaths",
+    "description": "The board can stop balancing while still moving, throwing the rider forward.",
+    "published_on": "2023-09-29",
+    "brands": [
+      "Future Motion"
+    ],
+    "models": [
+      "Onewheel"
+    ],
+    "category": "electric skateboard",
+    "hazard_text": "Crash hazard; four deaths reported",
+    "remedy_text": "Firmware update for some models, refund for others",
+    "contact": "Future Motion",
+    "url": "https://www.cpsc.gov/Recalls"
+  },
+  {
+    "id": "fda-food-f-1204-2024",
+    "source": "fda_food",
+    "title": "Ground cinnamon, elevated lead levels, multiple distributors",
+    "description": "Ground cinnamon products sold at discount retailers",
+    "published_on": "2024-03-06",
+    "brands": [
+      "La Fiesta"
+    ],
+    "models": [],
+    "category": "food",
+    "hazard_text": "Elevated lead levels",
+    "remedy_text": "Classification II",
+    "contact": "FDA",
+    "url": "https://www.fda.gov/safety"
+  },
+  {
+    "id": "cpsc-22-1683",
+    "source": "cpsc",
+    "title": "IKEA recalls MALM chests and dressers over tip-over hazard",
+    "description": "Unsecured chests of drawers can tip over if not anchored to a wall.",
+    "published_on": "2022-11-15",
+    "brands": [
+      "IKEA"
+    ],
+    "models": [
+      "MALM"
+    ],
+    "category": "furniture",
+    "hazard_text": "Tip-over and entrapment hazard to children",
+    "remedy_text": "Free wall anchoring kit or refund",
+    "contact": "IKEA",
+    "url": "https://www.cpsc.gov/Recalls"
+  }
+]

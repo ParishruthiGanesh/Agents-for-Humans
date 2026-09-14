@@ -1,0 +1,25 @@
+{
+  "itm_1199e9f831|cpsc-24-2201": {
+    "hazard": "injury",
+    "action": "notify_now",
+    "headline": "Your BlendJet 2 blender was recalled \u2014 stop using it",
+    "what_happened": "The battery in this blender can overheat and the blades can break apart while it is running. People have reported burns and cuts.",
+    "what_to_do": "Stop using it today. BlendJet is giving affected owners a free replacement base \u2014 request one through their recall page and keep your order confirmation from June 2023 to hand.",
+    "draft_message": "Hello,\n\nI own a BlendJet 2 portable blender, purchased on 2 June 2023. I understand it is covered by the recall over the battery and blade defect. Please tell me how to claim the free replacement base.\n\nMy order number is [ORDER NUMBER].\n\nThank you."
+  },
+  "itm_d98251b120|fda-device-z-1188-2021": {
+    "hazard": "illness",
+    "action": "notify_now",
+    "headline": "Your Philips DreamStation is covered by the CPAP foam recall",
+    "what_happened": "The sound-dampening foam inside these machines can break down over time, and the particles and fumes can be breathed in. Philips is repairing or replacing affected units.",
+    "what_to_do": "Do not simply stop using it \u2014 this is prescribed therapy, so speak to your doctor first. In the meantime, register the serial number DS-4471992 on the Philips recall site to join the repair programme.",
+    "draft_message": "Hello,\n\nI own a Philips DreamStation CPAP machine, serial DS-4471992, purchased in November 2019. I would like to register it for the sound abatement foam repair or replacement programme.\n\nPlease confirm my registration and the expected timescale.\n\nThank you."
+  },
+  "itm_3c2579596b|nhtsa-19v-702": {
+    "hazard": "injury",
+    "action": "digest",
+    "headline": "Free camera software fix available for your 2019 Accord",
+    "what_happened": "The rear-view camera can fail to show a picture when reversing. It is a software fault, and dealers fix it free of charge.",
+    "what_to_do": "No rush, but mention campaign 19V-702 next time the car is in for a service. Any Honda dealer will do the update free."
+  }
+}
