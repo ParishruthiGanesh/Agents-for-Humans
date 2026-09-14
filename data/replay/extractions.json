@@ -1,0 +1,26 @@
+{
+  "blendjet": {
+    "items": [
+      {
+        "name": "BlendJet 2 portable blender",
+        "brand": "BlendJet",
+        "model": "BlendJet 2",
+        "category": "blender",
+        "purchased_on": "2023-06-02",
+        "quantity": 1
+      },
+      {
+        "name": "WH-1000XM4 headphones",
+        "brand": "Sony",
+        "model": "WH-1000XM4",
+        "category": "headphones",
+        "purchased_on": "2023-06-02",
+        "quantity": 1
+      }
+    ],
+    "skipped": [
+      "Shipping and handling \u2014 not a possession",
+      "Sales tax \u2014 not a possession"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "itm_1199e9f831|cpsc-24-2201": {
+    "verdict": "match",
+    "confidence": 0.96,
+    "reasoning": "The notice names the BlendJet 2 by brand and model, and this unit was bought in June 2023, inside the affected sale window."
+  },
+  "itm_d98251b120|fda-device-z-1188-2021": {
+    "verdict": "match",
+    "confidence": 0.93,
+    "reasoning": "A Philips DreamStation bought in November 2019 falls squarely inside the affected range for the sound abatement foam problem."
+  },
+  "itm_cbcdbd768c|cpsc-19-2098": {
+    "verdict": "need_info",
+    "confidence": 0.62,
+    "reasoning": "The recall covers only some 4Ever DLX seats, identified by model number. The purchase date fits the window, but the model number on file is the product family name rather than the specific number.",
+    "missing_info": "Check the white label under the seat pad. If the model number is 2093054 or 2093055, this seat is affected."
+  },
+  "itm_3c2579596b|nhtsa-19v-702": {
+    "verdict": "match",
+    "confidence": 0.88,
+    "reasoning": "A 2019 Honda Accord is covered by this rear-view camera software campaign."
+  },
+  "itm_1e48a31f26|cpsc-22-1683": {
+    "verdict": "no_match",
+    "confidence": 0.94,
+    "reasoning": "Same brand and both are furniture, but the recall covers MALM chests of drawers. A BILLY bookcase is a different product line and is not named in the notice."
+  },
+  "itm_5ebdfc9f80|cpsc-24-2201": {
+    "verdict": "no_match",
+    "confidence": 0.97,
+    "reasoning": "Both are blenders, but the recall is specific to BlendJet 2 units. A Ninja BN701 is made by a different company and is not covered."
+  },
+  "itm_20ed878896|cpsc-23-1440": {
+    "verdict": "no_match",
+    "confidence": 0.91,
+    "reasoning": "The recall covers model P215Q. This drill is a P215K, a different model, and it was bought in 2020, before the affected units were sold."
+  }
+}
