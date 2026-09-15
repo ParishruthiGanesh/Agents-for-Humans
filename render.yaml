@@ -1,0 +1,17 @@
+# One-click deploy to Render. Runs in replay mode: the full pipeline, driven by
+# recorded agent judgements, so the public demo needs no AWS credentials and
+# cannot spend anyone's Bedrock budget.
+services:
+  - type: web
+    name: recall
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn recall.api:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      - key: RECALL_OFFLINE      # use recorded judgements, never call a model
+        value: "1"
+      - key: RECALL_DEMO         # seed the household and sweep once on boot
+        value: "1"

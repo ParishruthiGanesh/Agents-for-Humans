@@ -155,6 +155,34 @@ The dominant state of the interface is **"All clear — 412 recalls read, none o
 them affect anything you own."** That is what this thing looks like on almost
 every day, and the interface is designed around being boring.
 
+## Putting it online
+
+The public demo runs in **replay mode**: the real pipeline, driven by recorded
+agent judgements. No AWS credentials, no model spend, and the same result every
+time someone opens the link.
+
+**Render** (free tier, connects to GitHub):
+
+1. New → Web Service → point it at this repo
+2. Render reads `render.yaml` and fills in the build and start commands
+3. Deploy
+
+**Anywhere that takes a container** (Fly.io, App Runner, ECS, Cloud Run):
+
+```bash
+docker build -t recall .
+docker run -p 8000:8000 recall
+```
+
+`RECALL_DEMO=1` seeds the household and runs one sweep on boot, so the link
+shows a populated agent rather than an empty page — hosted filesystems are
+usually wiped on each deploy.
+
+> **Do not put AWS credentials on a public deployment.** Replay mode exists so
+> the demo can be public without them. If you genuinely want live agents in a
+> hosted environment, supply credentials through the platform's secret store
+> and never bake them into the image or commit them.
+
 ## Tests
 
 ```bash

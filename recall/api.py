@@ -8,6 +8,7 @@ pretending a model call is cheap.
 from __future__ import annotations
 
 import os
+from contextlib import asynccontextmanager
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
@@ -25,7 +26,22 @@ from .tools import bind_store
 WEB_DIR = Path(__file__).resolve().parent.parent / "web"
 OFFLINE = os.environ.get("RECALL_OFFLINE") == "1"
 
-app = FastAPI(title="Recall", description="An agent that watches your possessions.")
+@asynccontextmanager
+async def lifespan(_: FastAPI):
+    """Populate a hosted demo before the first request lands."""
+    from .bootstrap import ensure_demo_state
+
+    result = ensure_demo_state()
+    if result:
+        print(f"[recall] demo bootstrap: {result}")
+    yield
+
+
+app = FastAPI(
+    title="Recall",
+    description="An agent that watches your possessions.",
+    lifespan=lifespan,
+)
 
 
 def get_store() -> Store:
